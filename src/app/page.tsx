@@ -4,7 +4,7 @@ import Navbar from "./navbar/page";
 export default function Page() {
   return (
     <div>
-      <Navbar />
+      <Navbar/>
       <Head>
         <title>Tech Innovate</title>
         <meta name="description" content="Tech Innovate - Your Innovation Partner" />
@@ -23,10 +23,7 @@ export default function Page() {
           </p>
         </div>
       </main>
-      <button>Contact </button>
-      <footer>
-        <p>Footer content here</p>
-      </footer>
+
     </div>
   );
 }
