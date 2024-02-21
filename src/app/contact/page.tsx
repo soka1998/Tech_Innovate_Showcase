@@ -2,16 +2,18 @@
 import Head from 'next/head';
 import ContactForm from '../_components/ContactForm';
 import Link from 'next/link';
+import Navbar from '../navbar/page';
 
 const ContactPage: React.FC = () => {
   return (
     <div>
+      <Navbar/>
       <Head>
         <title>Contact Us - Your Company Name</title>
         <meta name="description" content="Contact us for inquiries, feedback, or support." />
       </Head>
       <div className="container mx-auto p-4">
-        <h1 className="text-3xl font-semibold mb-4">Contact Us</h1>
+        <h1 className="text-white text-3xl font-semibold mb-4">Contact Us</h1>
         <ContactForm />
       </div>
       <Link href="/" className='flex justify-center items-center'>
