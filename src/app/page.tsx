@@ -20,7 +20,7 @@ export default function Page() {
           </p>
           <p className="text-lg">
             We specialize in cutting-edge technology solutions, digital transformation, and innovation consulting.
-            At Tech Innovate, we are dedicated to providing cutting-edge technology solutions to drive innovation and digital transformation for businesses of all sizes. With our team of experts, we offer comprehensive consulting services to help our clients thrive in today's rapidly evolving digital landscape.
+            At Tech Innovate, we are dedicated to providing cutting-edge technology solutions to drive innovation and digital transformation for businesses of all sizes. With our team of experts, we offer comprehensive consulting services to help our clients thrive in today&apos;s rapidly evolving digital landscape.
 
           </p>
         </div>
