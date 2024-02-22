@@ -4,14 +4,16 @@ import Navbar from "./navbar/page";
 export default function Page() {
   return (
     <div>
-      <Navbar />
+      <Navbar/>
       <Head>
-        <title>Tech Innovate</title>
+        <title>
+        
+        </title>
         <meta name="description" content="Tech Innovate - Your Innovation Partner" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="flex min-h-screen items-center justify-center p-24" style={{ backgroundImage: "url('/logo.png')", backgroundSize: "cover" }}>
-        <div className="flex flex-col items-center bg-opacity-50 bg-gray-900 p-8 rounded-md text-white">
+      <main className="flex  items-center justify-center p-24" >
+        <div className="flex flex-col items-center bg-opacity-50 bg-gray-900 p-8 rounded-md text-white ">
           <h1 className="text-4xl font-bold mb-4">Welcome to Tech Innovate</h1>
           <p className="text-lg mb-8 font-semibold italic text-gray-300">
             Your Trusted Innovation Partner
@@ -23,10 +25,7 @@ export default function Page() {
           </p>
         </div>
       </main>
-      <button>Contact </button>
-      <footer>
-        <p>Footer content here</p>
-      </footer>
+
     </div>
   );
 }
