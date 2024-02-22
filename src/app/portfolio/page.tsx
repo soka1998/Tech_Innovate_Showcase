@@ -3,6 +3,7 @@
 import Head from "next/head";
 import Link from "next/link";
 import Navbar from "../navbar/page";
+import Image from "next/image";
 
 const PortfolioPage: React.FC = () => {
   return (
@@ -26,8 +27,11 @@ const PortfolioPage: React.FC = () => {
               E-commerce Website Redesign:
             </h2>
             <div className="flex justify-center">
-              <img
+              <Image
                 src="/ecommerce.jpg"
+                alt="ecommerce"
+                width={400}
+                height={400}
                
                 className="w-40 h-40 object-cover mr-2 rounded-lg"
               />
@@ -50,9 +54,11 @@ const PortfolioPage: React.FC = () => {
               Mobile Application Development
             </h2>
             <div className="flex justify-center">
-              <img
+              <Image
                 src="/mobileapp.png"
-                
+                alt="mobile app"
+                width={400}
+                height={400}
                 className="w-40 h-40 object-cover mr-2 rounded-lg"
               />
              
@@ -75,8 +81,11 @@ const PortfolioPage: React.FC = () => {
               Data Analytics Dashboard
             </h2>
             <div className="flex justify-center">
-              <img
+              <Image
                 src="/analytic.png"
+                alt="analytic app"
+                width={400}
+                height={400}
               
                 className="w-40 h-40 object-cover mr-2 rounded-lg"
               />
