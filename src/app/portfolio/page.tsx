@@ -2,10 +2,12 @@
 
 import Head from "next/head";
 import Link from "next/link";
+import Navbar from "../navbar/page";
 
 const PortfolioPage: React.FC = () => {
   return (
     <div>
+      <Navbar />
       <Head>
         <title>Portfolio - Tech Innovate</title>
       </Head>
