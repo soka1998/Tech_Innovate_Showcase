@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../navbar/page";
 import Image from "next/image";
 
+
 const Team: React.FC = () => {
   return (
     <div>
@@ -25,9 +26,9 @@ const Team: React.FC = () => {
           </div>
 
           <div className="gap-5 -mx-4 flex flex-wrap justify-center">
-            <Image src="/dev1.jpg" alt="dev1" width={300} height={300}/> 
-            <Image src="/dev2.jpg" alt="dev1" width={300} height={300}/>
-            <Image src="/dev3.jpg" alt="dev1" width={300} height={300}/>
+            <Image src="/dev1.jpg" alt="dev1" width={200} height={300}/> 
+            <Image src="/dev2.jpg" alt="dev2" width={200} height={300}/>
+            <Image src="/dev3.jpg" alt="dev3" width={200} height={300}/>
           </div>
         </div>
       </section>

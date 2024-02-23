@@ -13,7 +13,7 @@ const Navbar: React.FC = () => {
             <Image
               src="/logo2.png"
               width={100}
-              height={102}
+              height={100}
               alt="Tech Innovate Logo"
             />
           </div>
